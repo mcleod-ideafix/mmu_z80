@@ -12,6 +12,8 @@ A control register to enable/disable translation
 - 8 data lines for read/write to the control registers (the CPU data bus)
 - RESET: on reset address translation is disabled
 
+![image](https://github.com/mcleod-ideafix/mmu_z80/blob/main/mmu_pinout.png)
+
 ## Translation
 3 input address lines for translation
 8 output address lines
