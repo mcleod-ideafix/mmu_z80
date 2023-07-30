@@ -6,11 +6,11 @@ A simple MMU chip for Z80 and possibly other CPUs, from a spec description by Pe
 A control register to enable/disable translation
 
 ## Control
-CS: A chip-select line for writing to or reading from those registers
-R/W: signal to distinguish between read/write to one of the registers
-4 control address bits to select the target for read/write operations
-8 data lines for read/write to the control registers (the CPU data bus)
-RESET: on reset address translation is disabled
+- CS: A chip-select line for writing to or reading from those registers
+- R/W: signal to distinguish between read/write to one of the registers
+- 4 control address bits to select the target for read/write operations
+- 8 data lines for read/write to the control registers (the CPU data bus)
+- RESET: on reset address translation is disabled
 
 ## Translation
 3 input address lines for translation
