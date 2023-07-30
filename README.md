@@ -1,8 +1,8 @@
 # mmu_z80
-A simple MMU chip for Z80 and possibly, other CPUs from a spec description by Peter Wilson
+A simple MMU chip for Z80 and possibly other CPUs, from a spec description by Peter Wilson
 
 ## Registers
-8x8bit registers for address translation
+8 x 8 bit registers for address translation
 A control register to enable/disable translation
 
 ## Control
